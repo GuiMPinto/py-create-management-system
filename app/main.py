@@ -2,10 +2,12 @@ import dataclasses
 from datetime import datetime
 import pickle
 
+
 @dataclasses.dataclass
 class Specialty:
     name: str
     number: int
+
 
 @dataclasses.dataclass
 class Student:
@@ -16,6 +18,7 @@ class Student:
     has_scholarship: bool
     phone_number: str
     address: str
+
 
 @dataclasses.dataclass
 class Group:
